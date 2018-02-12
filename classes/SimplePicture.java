@@ -376,7 +376,7 @@ public class SimplePicture implements DigitalPicture
    // show the new image
    show();
  }
- 
+  
  /**
   * Method to show the picture in a picture frame
   */
@@ -560,7 +560,7 @@ public class SimplePicture implements DigitalPicture
     // get the graphics 2d object to draw on the result
     Graphics graphics = result.getGraphics();
     Graphics2D g2 = (Graphics2D) graphics;
-    
+                                           
     // draw the current image onto the result image scaled
     g2.drawImage(this.getImage(),scaleTransform,null);
     
